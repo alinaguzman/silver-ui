@@ -1,0 +1,18 @@
+<div class="sidenav">
+  <mat-toolbar>
+    <div fxLayout="row" fxLayoutAlign="end center" fxFlex>
+      <a class="logo" routerLink="/" routerLinkActive="active">Alina Guzman</a>
+    </div>
+  </mat-toolbar>
+
+  <div class="sidenav-container" fxLayoutAlign="start" fxFlex="1 1 15%">
+    <mat-sidenav [opened]="true" [fixedInViewport]="true">
+      <mat-nav-list>
+        <mat-list-item><a routerLink="/about" routerLinkActive="active">About</a></mat-list-item>
+        <mat-list-item><a routerLink="/datalina" routerLinkActive="active">Datalina</a></mat-list-item>
+        <mat-list-item><a routerLink="/gallery" routerLinkActive="active">Gallery</a></mat-list-item>
+        <mat-list-item><a routerLink="/blog" routerLinkActive="active">Blog</a></mat-list-item>
+      </mat-nav-list>
+    </mat-sidenav>
+  </div>
+</div>

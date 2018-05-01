@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Fjalla+One');
+
+.sidenav {
+  mat-toolbar {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+
+  .logo {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .sidenav-container {
+    background-color: #000000;
+
+    mat-sidenav:focus {
+      outline: none;
+      border: 0;
+    }
+
+    mat-nav-list {
+      padding: 0;
+    }
+
+    mat-list-item {
+      margin: 0;
+      padding-left: 24px;
+      padding-bottom: 8px;
+      background-color: #000000;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-family: 'Fjalla One', sans-serif;
+      font-size: 22px;
+    }
+
+    mat-list-item:first-child {
+      padding-top: 20px;
+    }
+
+    mat-list-item:last-child {
+      padding-bottom: 20px;
+    }
+
+    a:focus {
+      outline: none;
+      border: 0;
+    }
+
+    .active {
+      color: #777777;
+    }
+  }
+}
+
