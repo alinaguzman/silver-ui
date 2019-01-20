@@ -1,7 +1,7 @@
 @import '../../_styles.variables.scss';
 
 .gallery-container {
-  background: url("https://farm4.staticflickr.com/3289/3086580174_1d2dd40c0f_b.jpg") no-repeat center / cover;
-  height: $bg-height;
-  width: auto;
+  height: 75vh;
+  width: 70%;
+  margin: auto;
 }

@@ -45,6 +45,7 @@ import { DatalinaComponent } from './datalina/datalina.component';
 import { BlogComponent } from './blog/blog.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HomeComponent } from './home/home.component';
+import { SlideshowModule } from 'ng-simple-slideshow';
 
 @NgModule({
   declarations: [
@@ -93,7 +94,8 @@ import { HomeComponent } from './home/home.component';
     MatToolbarModule,
     MatTooltipModule,
     FlexLayoutModule,
-    AppRoutes
+    AppRoutes,
+    SlideshowModule
   ],
   providers: [],
   bootstrap: [AppComponent]
