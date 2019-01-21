@@ -5,8 +5,12 @@ import { DatalinaComponent } from './datalina/datalina.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { BlogComponent } from './blog/blog.component';
 import { HomeComponent } from './home/home.component';
+import { PathLocationStrategy, LocationStrategy } from '@angular/common';
 
 const routes: Routes = [
+  { path: '',
+    component: HomeComponent
+  },
   {
     path: 'about',
     component: AboutComponent
@@ -23,15 +27,20 @@ const routes: Routes = [
     path: 'blog',
     component: BlogComponent
   },
-  { path: '',
+  {
+    path: '404',
     component: HomeComponent
   },
+  {
+    path: '**',
+    component: HomeComponent
+  }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [ RouterModule.forRoot(routes) ],
   exports: [ RouterModule ],
-  providers: [] // resolvers
+  providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }],
 
 })
 export class AppRoutes {}

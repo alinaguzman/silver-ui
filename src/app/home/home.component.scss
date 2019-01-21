@@ -4,4 +4,8 @@
   background: url('https://farm4.staticflickr.com/3043/3086563934_33b38ccc3e_b.jpg') no-repeat center / cover;
   height: $bg-height;
   width: auto;
+
+  .bio-photo {
+    height: 50%;
+  }
 }
