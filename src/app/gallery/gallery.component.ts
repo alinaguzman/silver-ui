@@ -77,7 +77,8 @@ export class GalleryComponent implements OnInit {
   ];
 
   public parisPhotos: (string | IImage)[] = [
-    'https://photos.smugmug.com/Paris-blog/i-D5nZbM2/0/e15ee2f9/X3/IMG_7356-X3.jpg',
+    'https://photos.smugmug.com/Paris-blog/i-C8ZgWnn/0/9fc12e58/X3/IMG_7935-X3.jpg',
+    'https://photos.smugmug.com/Paris-blog/i-FDrFJ2k/0/f9a669a3/X3/IMG_7510-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-3hMnhvg/0/3e43dc39/X3/IMG_7357-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-Sst5QKr/0/8f8c2b23/X3/IMG_7358-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-Vv5pVhw/0/aea98f92/X3/IMG_7363-X3.jpg',
@@ -86,10 +87,8 @@ export class GalleryComponent implements OnInit {
     'https://photos.smugmug.com/Paris-blog/i-C9jnJMF/0/14a2e435/X3/IMG_7437-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-SxNnLMz/0/92db0016/X3/IMG_7442-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-s6mHKNR/0/6194f81a/X3/IMG_7474-X3.jpg',
-    'https://photos.smugmug.com/Paris-blog/i-3Z2kR9q/0/e962c262/X3/IMG_7477-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-Ww44wCP/0/e577e324/X3/IMG_7493-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-5jSwqdX/0/583c6c18/X3/IMG_7504-X3.jpg',
-    'https://photos.smugmug.com/Paris-blog/i-FDrFJ2k/0/f9a669a3/X3/IMG_7510-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-Tfn9JNX/0/6d3218a4/X3/IMG_7516-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-msz4hds/0/87006a4b/X3/IMG_7531-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-LGRvS2w/0/e7445348/X3/IMG_7540-X3.jpg',
@@ -112,7 +111,6 @@ export class GalleryComponent implements OnInit {
     'https://photos.smugmug.com/Paris-blog/i-m832tgC/0/aaa37f8a/X3/IMG_7925-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-hZBhZ5h/0/288fd7d2/X3/IMG_7930-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-GWJspk6/0/a29edd6c/X3/IMG_7931-X3.jpg',
-    'https://photos.smugmug.com/Paris-blog/i-C8ZgWnn/0/9fc12e58/X3/IMG_7935-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-vkF5wxq/0/d6021d1e/X3/IMG_8014-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-C3Dvkf4/0/d69212d1/X3/IMG_8055-X3.jpg',
     'https://photos.smugmug.com/Paris-blog/i-8GGs7rh/0/cf4b906d/X3/IMG_8099-X3.jpg',
