@@ -1,7 +1,21 @@
 @import '../../_styles.variables.scss';
 
 .gallery-container {
-  height: 80vh;
-  width: 70%;
-  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+
+  h3 {
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .nashville-slider, .odessa-slider, .paris-slider {
+    margin: auto;
+    width: 50%;
+  }
 }

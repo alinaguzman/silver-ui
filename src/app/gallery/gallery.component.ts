@@ -7,7 +7,22 @@ import { IImage } from 'ng-simple-slideshow';
   styleUrls: ['./gallery.component.scss']
 })
 export class GalleryComponent implements OnInit {
-
+  public nashvilleUrls: (string | IImage)[] = [
+    'https://photos.smugmug.com/Blog-1/i-ZxHD6nK/0/e74b2553/X2/IMG_9066-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-3Q3FDTD/0/94e0d261/X2/IMG_9069-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-QCqPMxd/0/ba7fe1a9/X2/IMG_9132-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-qG24qRS/0/4cfcbade/X2/IMG_9071-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-rf688Mz/0/42a65714/X2/IMG_9046-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-JkPkpLp/0/371ba617/X2/IMG_9049-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-B6qzMq4/0/36fb1d34/X2/IMG_9057-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-WGWc7mf/0/be553371/X2/IMG_9092-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-5jxBg5s/0/ba25ce87/X2/IMG_9097-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-QfkHRX6/0/50f2f8e0/X2/IMG_9112-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-bKFfDtJ/0/f4caa722/X2/IMG_9116-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-mhC842Z/0/2d482553/X2/IMG_9117-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-wccNJkC/0/660f35b5/X2/IMG_9125-X2.jpg',
+    'https://photos.smugmug.com/Blog-1/i-s7zJqS8/0/8de021bb/X2/IMG_9129-X2.jpg',
+  ];
   public oddessaUrls: (string | IImage)[] = [
     'https://photos.smugmug.com/Blog/i-WpWMLZL/0/7b397b56/X3/IMG_8533-X3.jpg',
     'https://photos.smugmug.com/Blog/i-S5d3txk/0/d419a465/X3/IMG_8543-X3.jpg',
